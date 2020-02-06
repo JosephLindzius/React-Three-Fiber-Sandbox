@@ -1,0 +1,128 @@
+$primary: #1F1F1F;
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+#root {
+  height: 100%;
+}
+
+
+
+.App {
+  text-align: center;
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  perspective: 1000px;
+  background: rgba(114, 88, 165, 0.48);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin normal 5000ms linear;
+  }
+}
+.center, .perspect {
+  padding: 20px;
+  background: #61dafb;
+  clip-path: circle(20%);
+  text-align: center;
+  margin: auto;
+  transform: rotateX(180deg) rotateY(-30deg) scale(0.1);
+
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.textAnime {
+
+  font-size: 5em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg) translateZ(-50px) scale(2);
+  }
+  to {
+    transform: rotate(360deg) translateZ(30px) scale(0.1);
+  }
+}
+
+.star {
+  margin: auto;
+  width: 300px;
+
+}
+
+.clickDance {
+  font-size: 4em;
+}
+
+
+.hooks-main > div {
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  will-change: transform;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.75);
+  opacity: 0.6;
+}
+
+
+.hooks-main > div {
+  width: 120px;
+  height: 120px;
+}
+
+
+.hooks-main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.profile {
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.boxCanvas {
+  height: 100vh;
+}
+

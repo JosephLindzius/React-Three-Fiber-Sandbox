@@ -1,3 +1,18 @@
+# React and Three-Fiber and Spring
+
+While learning react found Three-Fiber and Spring.  I was just testing to learn more about these libraries.  This is my sandbox of all the different components I could create.  
+
+The first canvas displays a pool table, which was created through a tutorial.
+The second canvas display imported models, a little garden area.
+The next several components are making use of spring.
+The last canvas on the page has physics and mouse controls integrated.  
+
+
+
+
+------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
