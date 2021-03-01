@@ -8764,10 +8764,10 @@ react-three-fiber@^3.0.17:
     scheduler "0.17.0"
     tiny-emitter "^2.1.0"
 
-react-use-gesture@^6.0.14:
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-6.0.14.tgz#ab2d35ef72a5fb6060a6160eb12568c276f8a4b1"
-  integrity sha512-d9cnZJ0DOFd3FIO76J776DyhtbODgbxGKu19lvc1aSNTnRV5EKr9V4Uda188l2Qh0Va3pqWGxEQlw72r2cmnFQ==
+react-use-gesture@latest:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-9.0.4.tgz#7e0428007df31b6d8daae37c2fb01e9f40283623"
+  integrity sha512-G0sbQY+HSm2gSVIlD+LE1unpVpG7YZRTr8TI72vo0Nu1lecJtvjbcY3ZLonEZLTtODJgLL6nBllMRXyy0bRSQA==
 
 react-use-measure@^2.0.0:
   version "2.0.0"
@@ -10145,10 +10145,10 @@ three-trackballcontrols@0.0.8:
   resolved "https://registry.yarnpkg.com/three-trackballcontrols/-/three-trackballcontrols-0.0.8.tgz#4af85312d211387e451023f9bef576094993a118"
   integrity sha512-9my4rB/ILaJw8E6khOcC6d8F8kEe6BvRtCer9bFJGZOh9txy4BqzwPrG7d8YCKK9MfcyTUoLsB5LKIsbtsZRTg==
 
-three@^0.112.1:
-  version "0.112.1"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.112.1.tgz#f8d8f4d0f8e5f753dac6260491b8209457fdc131"
-  integrity sha512-8I0O74hiYtKl3LgDNcPJbBGOlpekbcJ6fJnImmW3mFdeUFJ2H9Y3/UuUSW2sBdjrIlCM0gvOkaTEFlofO900TQ==
+three@^0.125.0:
+  version "0.125.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.125.0.tgz#19e922b9dc51ad0b706893aeee888de68e99850a"
+  integrity sha512-qL36qUGsPQ/Ofo/RZdXwHwM7A8wzUSAIyawtjIebJSPvounUQeneSqxI0aBY2iwKpseGy+RUtj3C5f/z4poyXw==
 
 throat@^4.0.0:
   version "4.1.0"
